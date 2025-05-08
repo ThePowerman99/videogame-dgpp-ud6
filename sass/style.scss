@@ -160,7 +160,7 @@ ol {
   color: #fff;
   padding: 6px 25px;
   &.new {
-    background: #ff205f;
+    background: #ffd23f;
   }
   &.strategy {
     background: #4eae60;
@@ -203,7 +203,7 @@ ol {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    border: 4px solid #f44336;
+    border: 4px solid #ffd23f;
     border-left-color: transparent;
   }
   50% {
@@ -215,7 +215,7 @@ ol {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    border: 4px solid #f44336;
+    border: 4px solid #ffd23f;
     border-left-color: transparent;
   }
 }
@@ -223,7 +223,7 @@ ol {
 @-webkit-keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
-    border: 4px solid #f44336;
+    border: 4px solid #ffd23f;
     border-left-color: transparent;
   }
   50% {
@@ -233,7 +233,7 @@ ol {
   }
   100% {
     -webkit-transform: rotate(360deg);
-    border: 4px solid #f44336;
+    border: 4px solid #ffd23f;
     border-left-color: transparent;
   }
 }
@@ -432,7 +432,7 @@ ol {
       color: #fff;
       padding: 4px 20px;
       &.new {
-        background: #ff205f;
+        background: #ffd23f;
       }
       &.strategy {
         background: #4eae60;
@@ -544,7 +544,7 @@ ol {
       background: $color1;
     }
     .rgi-heart {
-      background: #ff205f;
+      background: #ffd23f;
     }
   }
 }
@@ -764,7 +764,7 @@ ol {
         color: #d3d3d3;
         margin-bottom: 5px;
         a{
-          color: #ff205f;
+          color: #ffd23f;
         }
         span {
           color: #7a7a7a;
@@ -955,7 +955,7 @@ ol {
         background: $color1;
       }
       .rgi-heart {
-        background: #ff205f;
+        background: #ffd23f;
       }
     }
 
@@ -1109,7 +1109,7 @@ ol {
       padding-left: 100px;
       h5 {
         font-size: 16px;
-        color: #ff205f;
+        color: #ffd23f;
         font-weight: 400;
         margin-bottom: 10px;
         span {
