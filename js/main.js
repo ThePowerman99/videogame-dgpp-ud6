@@ -76,5 +76,21 @@ $(window).on('load', function() {
 	    duplicated: true
 	});
 
+	// Mostrar u ocultar botón al hacer scroll
+	window.addEventListener('scroll', function () {
+		const btn = document.querySelector('.back-to-top');
+		if (window.scrollY > 300) {
+			btn.style.display = 'block';
+		} else {
+			btn.style.display = 'none';
+		}
+	});
+
+	// Desplazamiento suave hacia arriba
+	document.querySelector('.back-to-top').addEventListener('click', function (e) {
+		e.preventDefault();
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	});
+
 })(jQuery);
 
